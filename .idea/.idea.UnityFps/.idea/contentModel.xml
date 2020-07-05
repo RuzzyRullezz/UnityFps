@@ -10,11 +10,20 @@
         <e p="Scripts" t="Include">
           <e p="Ammo.cs" t="Include" />
           <e p="AssaultRifle.cs" t="Include" />
+          <e p="BackgroundMusic.cs" t="Include" />
           <e p="Constants.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
           <e p="GameUI.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
           <e p="GunEquipper.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
+          <e p="Missile.cs" t="Include" />
+          <e p="Pickup.cs" t="Include" />
+          <e p="PickupSpawn.cs" t="Include" />
           <e p="Pistol.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="Robot.cs" t="Include" />
+          <e p="RobotSpawn.cs" t="Include" />
           <e p="Shotgun.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">

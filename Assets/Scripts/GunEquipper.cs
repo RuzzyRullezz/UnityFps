@@ -1,37 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class GunEquipper : MonoBehaviour
 {
 
     public static string activeWeaponType;
-
     public GameObject pistol;
     public GameObject assaultRifle;
     public GameObject shotgun;
 
-    GameObject activeGun;
-
     [SerializeField]
     GameUI gameUI;
+    GameObject activeGun;
+    [SerializeField]
+    Ammo ammo;
 
+    // Use this for initialization
     void Start()
     {
         activeWeaponType = Constants.Pistol;
         activeGun = pistol;
     }
 
-    private void loadWeapon(GameObject weapon)
-    {
-        pistol.SetActive(false);
-        assaultRifle.SetActive(false);
-        shotgun.SetActive(false);
-
-        weapon.SetActive(true);
-        activeGun = weapon;
-    }
-
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown("1"))
@@ -54,8 +45,20 @@ public class GunEquipper : MonoBehaviour
         }
     }
 
+    private void loadWeapon(GameObject weapon)
+    {
+        pistol.SetActive(false);
+        assaultRifle.SetActive(false);
+        shotgun.SetActive(false);
+
+        weapon.SetActive(true);
+        activeGun = weapon;
+        gameUI.SetAmmoText(ammo.GetAmmo(activeGun.tag));
+    }
+
     public GameObject GetActiveWeapon()
     {
         return activeGun;
     }
+
 }

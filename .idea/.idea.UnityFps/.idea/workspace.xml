@@ -16,14 +16,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Constants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunEquipper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shotgun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Missile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunEquipper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AssaultRifle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,10 +41,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Pistol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shotgun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AssaultRifle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GunEquipper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ammo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Missile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickupSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RobotSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunEquipper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593892157553</updated>
-      <workItem from="1593892173501" duration="2423000" />
+      <workItem from="1593892173501" duration="6828000" />
     </task>
     <servers />
   </component>
